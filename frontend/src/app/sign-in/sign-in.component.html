@@ -1,0 +1,12 @@
+<div class="box-container center top-center">
+    <app-message-alert #messageAlert [message]="message"></app-message-alert>
+    <form [formGroup]="signInForm">
+        <app-username-field [form]="signInForm" [show-hint]="false"></app-username-field>
+        <app-password-field [form]="signInForm" [show-hint]="false"></app-password-field>
+
+        <div class="form-buttons">
+            <app-enter-button [form]="signInForm" (action)="signIn()"></app-enter-button>
+            <app-sign-up-button></app-sign-up-button>
+        </div>
+    </form>
+</div>

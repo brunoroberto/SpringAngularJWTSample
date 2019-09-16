@@ -1,0 +1,19 @@
+.message {
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+
+  &.success {
+    background-color: rgb(68, 221, 68);
+  }
+
+  &.error {
+    background-color: rgb(255, 43, 43);
+  }
+}

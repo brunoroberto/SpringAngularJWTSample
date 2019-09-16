@@ -1,0 +1,15 @@
+<div class="box-container center">
+    <app-message-alert #messageAlert [message]="message"></app-message-alert>
+    <form [formGroup]="signUpForm" class="sign-up-form">
+        <app-name-field [form]="signUpForm"></app-name-field>
+        <app-email-field [form]="signUpForm"></app-email-field>
+        <app-username-field [form]="signUpForm"></app-username-field>
+        <app-password-field #PasswordField [form]="signUpForm" [password-strength]="true"></app-password-field>
+        <app-match-password-field [form]="signUpForm" [password-field]="PasswordField"></app-match-password-field>
+
+        <div class="form-buttons">
+            <app-create-button [form]="signUpForm" (action)="create()"></app-create-button>
+            <app-cancel-button></app-cancel-button>
+        </div>
+    </form>
+</div>
