@@ -5,6 +5,8 @@ This is a simple project using Angular + Rest API (Spring) and Json Web Token (J
 ![Demonstration](https://github.com/brunoroberto/SpringAngularJWTSample/blob/master/spring_sample.gif)
 
 ## Intructions
+Note: before run the sample, it is necessary to do some changes in the application.properties file about database access. In this sample I am using MySQL database.
+
 To run the frontend project just go the /frontend folder and run:
 
 ```shell
