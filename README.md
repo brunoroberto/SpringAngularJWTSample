@@ -13,9 +13,9 @@ To run the frontend project just go the /frontend folder and run:
 ng serve --aot
 ```
 
-To run the server project got to the /backend/taarget folder and run:
+To run the server project got to the /backend/target folder and run:
 
-```java
+```shell
 java -jar ./spring-sample-0.0.1.jar
 ```
 
