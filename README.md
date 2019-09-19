@@ -17,4 +17,5 @@ To run the server project got to the /backend/taarget folder and run:
 java -jar ./spring-sample-0.0.1.jar
 ```
 
+After that access the address http://localhost:4200 in a browser
 
